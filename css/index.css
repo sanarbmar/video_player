@@ -14,7 +14,7 @@ body {
 }
 .player{
   margin-block-start: 100px;
-  /* border: 10px solid red; */
+  border: 10px double red;
   position: relative;
 }
 .player video{
