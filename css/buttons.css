@@ -1,0 +1,27 @@
+.button{
+    cursor: pointer;
+    inline-size:32px;
+    block-size: 32px;
+    border: none;
+    /* order: 2px solid red; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-color: transparent;/* transparent  unset initial si le pongo none se veria por detras */
+}
+#play{
+    
+    background-image: url('../images/play.svg');
+}
+#pause{
+    background-image: url('../images/pause.svg');
+}
+#backward{
+    background-image: url('../images/-10.svg');
+}
+#forward{
+    background-image: url('../images/+10.svg');
+}
+/* pseudoclases , :active , cuando le pico  parece un boton que presiono */
+.button:active{
+    transform: scale(.9);
+}
